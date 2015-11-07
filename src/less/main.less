@@ -1,0 +1,25 @@
+
+// Include all of bootstrap cause I'm lazy today
+// TODO: "Only take what you need to survive"
+@import "../../node_modules/bootstrap/less/bootstrap.less";
+
+// Override some bootstrap things, cause you can
+@import "./overrides.less";
+
+@import "./header.less";
+@import "./footer.less";
+@import "./main-content.less";
+@import "./nav.less";
+
+// Some generic main styles
+body {
+  background: black;
+  color: white;
+}
+
+// Make rows that are opposite the normal body colours
+.opposite-row() {
+  background: white;
+  color: black;
+}
+
