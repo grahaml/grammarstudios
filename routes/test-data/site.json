@@ -1,0 +1,28 @@
+{
+  "site_name": "Grammar Studios Dot Com",
+  "sections": [
+    {
+      "title": "About Me",
+      "body": "Web Developer in Toronto, ON",
+      "bullets": [
+        "Front-end focus, full-stack developer",
+        "Over 5 years experience",
+        "Teacher and student"
+      ]
+    },
+    {
+      "title": "Work Experience",
+      "blurb": "Some companies I've worked for // some projects I've worked on",
+      "projects": [
+        {
+          "title": "loblaws dot ca",
+          "role": "Lead front-end developer",
+          "href": [
+            "http://loblaws.ca",
+            "http://pc.ca"
+          ]
+        }
+      ]
+    }
+  ]
+}

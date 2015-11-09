@@ -1,0 +1,12 @@
+<div class="row-main-content">
+  <%
+    var sections = siteData.sections,
+        i = 0, l = sections.length;
+    for(i; i<l; i++) {
+      var section = sections[i];
+      %>
+      <% include includes/content-section.ejs %>
+      <%
+    };
+  %>
+</div>

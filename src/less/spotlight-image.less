@@ -1,0 +1,35 @@
+@imageWidthXs: 100px;
+@imageWidthSm: @imageWidthXs * 1.13;
+@imageWidthMd: @imageWidthXs * 1.2;
+
+.spotlight-image {
+
+  position: relative;
+  top: -50px;
+
+  img {
+    width: @imageWidthXs;
+    height: @imageWidthXs;
+    .img-circle();
+    .img-responsive();
+    .center-block();
+  }
+
+  @media(min-width: @screen-xs-max) {
+
+    top: -@imageWidthSm/2;
+    img {
+      width: @imageWidthSm;
+      height: @imageWidthSm;
+    }
+  }
+
+  @media(min-width: @screen-sm-max) {
+
+    top: -@imageWidthMd/2;
+    img {
+      width: @imageWidthMd;
+      height: @imageWidthMd;
+    }
+  }
+}
