@@ -1,3 +1,4 @@
+// Scale image size on larger breakpoints
 @imageWidthXs: 100px;
 @imageWidthSm: @imageWidthXs * 1.13;
 @imageWidthMd: @imageWidthXs * 1.2;
@@ -18,6 +19,7 @@
   @media(min-width: @screen-xs-max) {
 
     top: -@imageWidthSm/2;
+
     img {
       width: @imageWidthSm;
       height: @imageWidthSm;
@@ -27,6 +29,7 @@
   @media(min-width: @screen-sm-max) {
 
     top: -@imageWidthMd/2;
+
     img {
       width: @imageWidthMd;
       height: @imageWidthMd;

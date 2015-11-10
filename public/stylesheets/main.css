@@ -6774,6 +6774,87 @@ button.close {
 .row-header {
   background: white;
   color: black;
+  padding-bottom: 2.5em;
+}
+@media (min-width: 992px) {
+  .row-header {
+    padding: 1.5em 0;
+  }
+}
+.row-header .col-header {
+  float: left;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .row-header .col-header {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .row-header .col-header {
+    margin-left: 25%;
+  }
+}
+.row-header .wrapper-header:before,
+.row-header .wrapper-header:after {
+  content: " ";
+  display: table;
+}
+.row-header .wrapper-header:after {
+  clear: both;
+}
+.row-header .wrapper-header:before,
+.row-header .wrapper-header:after {
+  content: " ";
+  display: table;
+}
+.row-header .wrapper-header:after {
+  clear: both;
+}
+.row-header .wrapper-header h1,
+.row-header .wrapper-header h2 {
+  position: relative;
+  float: left;
+  width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+}
+.row-header .wrapper-header h1 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .row-header .wrapper-header h1 {
+    float: left;
+    width: 50%;
+  }
+}
+.row-header .wrapper-header h2 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .row-header .wrapper-header h2 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .row-header .wrapper-header h2 {
+    float: right !important;
+    text-align: right;
+  }
 }
 footer {
   position: absolute;
