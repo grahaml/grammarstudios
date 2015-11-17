@@ -1,1 +1,11 @@
-<li><%= section.title %></li>
+<section class="wrapper-section col-xs-12 <%= section.slug %>">
+  <h3><%= section.title %></h3>
+  <p class="section-body"><%= section.body %>
+  <% if(section.bullets) { %>
+    <ul class="section-bullets">
+      <% for(var i = 0; i < section.bullets.length; i++) { %>
+        <li><%= section.bullets[i] %></li>
+      <% } %>
+    </ul>
+  <% } %>
+</section>

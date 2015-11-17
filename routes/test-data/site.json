@@ -3,6 +3,7 @@
   "sections": [
     {
       "title": "About Me",
+      "slug": "about-me",
       "body": "Web Developer in Toronto, ON",
       "bullets": [
         "Front-end focus, full-stack developer",
@@ -12,8 +13,9 @@
     },
     {
       "title": "Work Experience",
+      "slug": "work-experience",
       "blurb": "Some companies I've worked for // some projects I've worked on",
-      "projects": [
+      "bullets": [
         {
           "title": "loblaws dot ca",
           "role": "Lead front-end developer",
