@@ -2,6 +2,7 @@
 
 ## What is this?
 
+<<<<<<< HEAD
 * A simple express app to make a really simple website about myself
 * The groundwork for an application to house experiments
 * An experiment itself, and a playground to learn more about Node, Express, and ES6
@@ -18,4 +19,3 @@
 ## Made from?
 
 Uses `node` and `express` on the back-end. Currently using `ejs` templates to render the front-end, but infrastructure is in place to work with `jade` and experiment with `express-react-views`. You can change the const `viewEngine` to be either `"ejs"`, `"jade"`, or `"jsx"` inside `app.js`.
-
