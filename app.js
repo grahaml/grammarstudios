@@ -10,18 +10,17 @@ const users = require('./routes/users');
 
 const app = express();
 
-// Use ejs for views
-app.set('views', path.join(__dirname, 'views/ejs'));
-app.set('view engine', 'ejs');
+// Can be either `ejs`, `jade`, or `jsx`
+const viewEngine = 'ejs';
 
-// Use jsx for views
-// app.set('views', path.join(__dirname, 'views/jsx'));
-// app.set('view engine', 'jsx');
-// app.set('view engine', 'jsx');
+// Use ejs for views
+app.set('views', path.join(__dirname, `views/${viewEngine}`));
+app.set('view engine', viewEngine);
+
+// *** Uncomment these two lines If using `jsx` as `viewEngine` ***
 // const opts = {transformViews: true, beautify: true};
 // app.engine('jsx', require('express-react-views').createEngine(opts));
 
-// uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
