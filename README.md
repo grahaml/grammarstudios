@@ -2,7 +2,6 @@
 
 ## What is this?
 
-<<<<<<< HEAD
 * A simple express app to make a really simple website about myself
 * The groundwork for an application to house experiments
 * An experiment itself, and a playground to learn more about Node, Express, and ES6
